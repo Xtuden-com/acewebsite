@@ -1,4 +1,4 @@
-django==2.1.2
+django==4.2.27
 whitenoise==3.3.1
 gunicorn==19.7.0
 django-heroku
@@ -8,3 +8,4 @@ sendgrid
 cloudinary
 django-multiselectfield==0.1.4
 django-bmemcached
+werkzeug>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
